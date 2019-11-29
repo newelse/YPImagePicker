@@ -38,6 +38,7 @@ class YPAlbumVC: UIViewController {
         navigationItem.leftBarButtonItem = UIBarButtonItem(barButtonSystemItem: .stop,
                                                            target: self,
                                                            action: #selector(close))
+        navigationItem.leftBarButtonItem?.tintColor = YPConfig.colors.tintColor
         setUpTableView()
         fetchAlbumsInBackground()
     }

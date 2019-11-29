@@ -46,6 +46,7 @@ open class YPPickerVC: YPBottomPager, YPBottomPagerDelegate {
     open override func viewDidLoad() {
         super.viewDidLoad()
         delegate = self
+        view.backgroundColor = YPConfig.colors.bottomMenuItemBackgroundColor
         
         // Force Library only when using `minNumberOfItems`.
         if YPConfig.library.minNumberOfItems > 1 {

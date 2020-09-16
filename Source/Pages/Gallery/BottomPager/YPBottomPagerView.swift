@@ -36,7 +36,7 @@ final class YPBottomPagerView: UIView {
         } else {
             header.bottom(0)
         }
-        header.heightConstraint?.constant = YPConfig.hidesBottomBar ? 0 : 44
+        header.heightConstraint?.constant = (YPConfig.hidesBottomBar || (YPConfig.screens.count == 1)) ? 0 : 44
         
         clipsToBounds = false
         setupScrollView()

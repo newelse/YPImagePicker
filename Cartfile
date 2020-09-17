@@ -1,5 +1,2 @@
 github "freshOS/Stevia" "4.7.3"
-
-# See also https://github.com/HHK1/PryntTrimmerView/pull/66
-github "HHK1/PryntTrimmerView" "master"
-
+github "newelse/PryntTrimmerView" "xcode12"

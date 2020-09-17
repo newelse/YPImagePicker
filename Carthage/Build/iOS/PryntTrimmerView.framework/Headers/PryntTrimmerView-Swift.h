@@ -240,8 +240,6 @@ SWIFT_CLASS("_TtC16PryntTrimmerView11TrimmerView")
 @property (nonatomic, strong) IBInspectable UIColor * _Nonnull handleColor;
 /// The color of the position indicator
 @property (nonatomic, strong) IBInspectable UIColor * _Nonnull positionBarColor;
-/// The color used to mask unselected parts of the video
-@property (nonatomic, strong) IBInspectable UIColor * _Nonnull maskColor;
 - (void)scrollViewDidEndDecelerating:(UIScrollView * _Nonnull)scrollView;
 - (void)scrollViewDidEndDragging:(UIScrollView * _Nonnull)scrollView willDecelerate:(BOOL)decelerate;
 - (void)scrollViewDidScroll:(UIScrollView * _Nonnull)scrollView;
@@ -501,8 +499,6 @@ SWIFT_CLASS("_TtC16PryntTrimmerView11TrimmerView")
 @property (nonatomic, strong) IBInspectable UIColor * _Nonnull handleColor;
 /// The color of the position indicator
 @property (nonatomic, strong) IBInspectable UIColor * _Nonnull positionBarColor;
-/// The color used to mask unselected parts of the video
-@property (nonatomic, strong) IBInspectable UIColor * _Nonnull maskColor;
 - (void)scrollViewDidEndDecelerating:(UIScrollView * _Nonnull)scrollView;
 - (void)scrollViewDidEndDragging:(UIScrollView * _Nonnull)scrollView willDecelerate:(BOOL)decelerate;
 - (void)scrollViewDidScroll:(UIScrollView * _Nonnull)scrollView;
@@ -766,8 +762,6 @@ SWIFT_CLASS("_TtC16PryntTrimmerView11TrimmerView")
 @property (nonatomic, strong) IBInspectable UIColor * _Nonnull handleColor;
 /// The color of the position indicator
 @property (nonatomic, strong) IBInspectable UIColor * _Nonnull positionBarColor;
-/// The color used to mask unselected parts of the video
-@property (nonatomic, strong) IBInspectable UIColor * _Nonnull maskColor;
 - (void)scrollViewDidEndDecelerating:(UIScrollView * _Nonnull)scrollView;
 - (void)scrollViewDidEndDragging:(UIScrollView * _Nonnull)scrollView willDecelerate:(BOOL)decelerate;
 - (void)scrollViewDidScroll:(UIScrollView * _Nonnull)scrollView;
@@ -1027,8 +1021,6 @@ SWIFT_CLASS("_TtC16PryntTrimmerView11TrimmerView")
 @property (nonatomic, strong) IBInspectable UIColor * _Nonnull handleColor;
 /// The color of the position indicator
 @property (nonatomic, strong) IBInspectable UIColor * _Nonnull positionBarColor;
-/// The color used to mask unselected parts of the video
-@property (nonatomic, strong) IBInspectable UIColor * _Nonnull maskColor;
 - (void)scrollViewDidEndDecelerating:(UIScrollView * _Nonnull)scrollView;
 - (void)scrollViewDidEndDragging:(UIScrollView * _Nonnull)scrollView willDecelerate:(BOOL)decelerate;
 - (void)scrollViewDidScroll:(UIScrollView * _Nonnull)scrollView;

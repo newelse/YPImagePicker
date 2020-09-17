@@ -2,7 +2,7 @@
   "commitish" : "4.7.3",
   "iOS" : [
     {
-      "hash" : "22a967b55db16a997cb5f24d84cc083295389ecde88dfe3d3945a0cda2440e76",
+      "hash" : "db2842242506df59bba9e0de8244df17437f7e27b962417eb4ea984cffb20204",
       "name" : "Stevia",
       "linking" : "dynamic",
       "swiftToolchainVersion" : "5.3 (swiftlang-1200.0.29.2 clang-1200.0.30.1)"
